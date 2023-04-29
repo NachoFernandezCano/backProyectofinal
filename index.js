@@ -5,6 +5,7 @@ dotenv.config();
 const cors = require("cors");
 const connectDb = require("./Db/connectDb");
 const router = require("./routes");
+let port = process.env.API_PORT || 3000;
 
 connectDb();
 app.use(express.json());
@@ -17,4 +18,4 @@ app.get("/", (req, res) => {
     res.json({ message: "Backend encontrado" });
 });
 
-app.listen(4000,'0.0.0.0', () => console.log("Servidor funcionando"));
+app.listen(port,'0.0.0.0', () => console.log("Servidor funcionando"));
