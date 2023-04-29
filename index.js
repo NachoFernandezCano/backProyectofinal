@@ -17,4 +17,4 @@ app.get("/", (req, res) => {
     res.json({ message: "Backend encontrado" });
 });
 
-app.listen(4000, () => console.log("Servidor funcionando"));
+app.listen(0000, () => console.log("Servidor funcionando"));
