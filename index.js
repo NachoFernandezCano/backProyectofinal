@@ -17,4 +17,4 @@ app.get("/", (req, res) => {
     res.json({ message: "Backend encontrado" });
 });
 
-app.listen(4000, () => console.log("Servidor funcionando en puerto 4000"));
+app.listen(4000, () => console.log("Servidor funcionando"));
