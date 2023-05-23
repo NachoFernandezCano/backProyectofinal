@@ -1,0 +1,67 @@
+QUANTUM TECNO
+
+Descripción:
+    Proyecto final correspondiente al curso de Fullstack developer de la academia Rolling Code School.
+    Esta base de datos corresponde a un e-commerce, desarrollado con React, Node y MongoDB que permite al e-commerce acceder a la información ingresada por los administradores de la página.
+
+Características:
+    Permite la creación de la base de datos mediante la utilización de modelos, a la cual se accede utilizando controladores y rutas.
+    Toda la funcionalidad de la base de datos requiere una autorización, la cual permite restringir el acceso no deseado.
+
+Instalación:
+    1-Clona este repositorio en tu máquina local.
+        bash: git clone https://github.com/tu-usuario/tu-repositorio.git
+    2-Navega al directorio del proyecto.
+        bash: cd ecommerce-react
+    3-Instala las dependencias del proyecto.
+        npm install
+    4-Inicia la aplicación.
+        npm start
+
+Tecnologías y librerías utilizadas:
+    React
+    Express
+    MongoDB
+    Node
+    Corse
+    Nodemon
+
+Estructura de archivos:
+|── controllers
+│   ├── carts.js
+│   ├── Products.js
+│   ├── productsType.js
+│   └── users.js
+├── Db
+|   └──connectDb.js
+├── helpers
+|   └─ productsHelpers.js
+├── middlewares
+│   ├── auth.js
+│   ├── products.js
+|   └─ users.js
+├── models
+│   ├── Cart.js
+│   ├── Product.js
+│   ├── ProductsType.js
+|   └─ Users.js
+├── routes
+│   ├── cart.js
+│   ├── index.js
+│   ├── products.js
+│   ├── productsType.js
+|   └─ users.js
+├── index.js
+└── READE.md
+
+Autores:
+    -José Ignacio Fernández Cano
+    -Ariel David Gomez
+    -Martin Gomez
+    -Cintya Alexia Tonin Elias 
+
+Licencia:
+    Todos los derechos de autor de los recursos utilizados en este proyecto, como imágenes, logotipos y marcas registradas, pertenecen a sus respectivos dueños. Estos recursos se utilizan únicamente con fines ilustrativos y para mejorar la experiencia del usuario. Si crees que se han infringido tus derechos de autor, por favor contáctanos y tomaremos las medidas correspondientes.
+
+Recursos adicionales:
+    Repositorio Frontend: https://github.com/NachoFernandezCano/proyectoFinalRollingCode.git
