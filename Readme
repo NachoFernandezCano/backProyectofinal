@@ -2,7 +2,7 @@ QUANTUM TECNO
 
 Descripción:
     Proyecto final correspondiente al curso de Fullstack developer de la academia Rolling Code School.
-    Esta base de datos corresponde a un e-commerce, desarrollado con React, Node y MongoDB que permite al e-commerce acceder a la información ingresada por los administradores de la página.
+    Este proyecto de e-commerce está realizado en nodeJS el cual cuenta con una base de datos que permite acceder a la información ingresada por los administradores de la página.
 
 Características:
     Permite la creación de la base de datos mediante la utilización de modelos, a la cual se accede utilizando controladores y rutas.
