@@ -7,13 +7,14 @@ const getProducts = async (req, res) => {
     const { limit = 15, page = 1, category = "" } = req.query;
     const skip = limit * (page - 1);
     const query = await buildQuery(category);
-    const allProducts = await Product.find(query, {}, { skip, limit });
+    const allProducts = await Product.find(query, {}, { skip, limit }).populate('type');
     res.send(allProducts);
   } catch (error) {
     console.error(error);
     res.status(500).send(error);
   }
 };
+;
 
 const getProduct = async (req, res) => {
   try {
